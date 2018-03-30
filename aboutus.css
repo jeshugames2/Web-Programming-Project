@@ -1,0 +1,72 @@
+.top{
+	background-image: url("abus2.jpg");
+	background-size: cover;
+	height: 500px;
+	width: 1500px;
+	background-size: cover;
+	color:#ffffff;
+	position: absolute;
+}
+
+.home{
+	float:left;
+	padding-left: 10px;
+}
+
+table{
+	border-style:none;
+	float: right;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+
+a{
+	color:#ffffff;
+	text-decoration: none;
+	font-family: Gotham; 
+	font-size: 23px;
+	padding:5px;
+}
+
+a:hover{
+	border-bottom-style: solid;
+	border-bottom-color: #ffffff;
+}
+
+.heading{
+	padding-left: 600px;
+	padding-top: 135px;
+	font-size: 87px;
+	font-family: Palatino Linotype;			
+	position: relative;
+}
+
+.abusinfo{
+	position: absolute;
+	margin-top: 34%;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 28px;	
+}
+
+.nav{
+	top: 118%;
+	position: absolute;
+	text-align: center;
+	padding-left: 17%;
+}
+
+.nav td{
+	border-right: solid 1px #896633;
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: center;
+}
+
+.nav a{
+	text-decoration: none;
+	color: #896633;
+	font-size: 49px;
+	font-family: Wida Round Demo;
+	font-weight: bold;
+}

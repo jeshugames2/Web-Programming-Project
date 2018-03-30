@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script type="text/javascript">
+    function validate()
+    {
+        function ValidateEmail(email_id)
+        {
+            if(/^\w+([\.-]?\ w+)*@\w+([\.-]?\ w+)*(\.\w{2,3})+$/.test(MyForm.email_id.value))
+                {
+                    return (true)
+                }
+                alert("You have entered an invalid email address!")
+                return (false)
+            }
+        }
+        if(document.MyForm.Name.value=="")
+        {
+            alert("Please enter your name");
+            return false;
+        }
+       if(document.MyForm.Age.value=="" || document.MyForm.Age.value>100 || document.MyForm.Age.value<0)
+        {
+            alert("Please enter a correct age");
+            return false;
+        }
+        if(document.MyForm.Address.value=="")
+        {
+            alert("Please enter your address");
+            return false;
+        }
+        if(document.MyForm.City.value=="")
+        {
+            alert("Please enter a city");
+            return false;
+        }
+        if(document.PIN.value=="" || document.MyForm.PIN.value.length!=6)
+        {
+            alert("Please enter a valid PIN code");
+            return false;
+        }
+        if(document.Mobile_Number.value=="" || document.MyForm.Contact_Number.value.length!=10)
+        {
+            alert("Please enter a valide mobile number");
+            return false;
+        } 
+    }
+</script>
+<link rel="stylesheet" type="text/css" href="reg.css">
+</head>
+<body>
+<div class="sg">
+<form action="submit.php" name="MyForm" onSubmit="return validate()" method="post">
+    <p>Email ID:<br>
+    <input type="text" name="email_id" pattern="/^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/">
+    </p>
+    <p>Password:<br>
+    <input type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+    </p>
+    <p>Name:<br>
+    <input type="text" name="Name">
+    </p>
+    <p>Age:<br>
+    <input type="text" name="Age">
+    </p>
+    <p>Gender:
+    <input type="radio" name="Gender" value="male">Male
+    <input type="radio" name="Gender" value="female">Female
+    </p>    
+    <p>Address:<br>
+    <input type="text" name="Address">
+    </p>
+    <p>City:<br>
+    <input type="text" name="City">
+    </p>
+    <p>PIN Code:<br>
+    <input type="text" name="PIN">
+    </p>
+    <p>Mobile Number:<br>
+    <input type="text" name="Mobile_Number">
+    </p>
+    <input type="submit" value="Submit">
+</form>
+</div>
+</body>
+</html>

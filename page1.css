@@ -1,0 +1,133 @@
+.top{
+	background-image: url("mum1.jpg");
+	height: 500px;
+	width: 1500px;
+	background-size: cover;
+	color:#ffffff;
+	position: absolute;
+}
+
+.home{
+	float:left;
+	padding-left: 10px;
+}
+
+table{
+	border-style:none;
+	float: right;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+
+a{
+	color:#ffffff;
+	text-decoration: none;
+	font-family: Gotham; 
+	font-size: 23px;
+	padding:5px;
+}
+
+a:hover{
+	border-bottom-style: solid;
+	border-bottom-color: #ffffff;
+}
+
+.heading{
+	padding-left: 600px;
+	padding-top: 135px;
+	font-size: 87px;
+	font-family: Palatino Linotype;			
+	position: relative;
+}
+
+.card1{
+	position: absolute;
+	margin-left: 250px;
+	margin-top: 600px;
+	border: none;
+	transition: border 1s ;
+}	
+
+.card1 img{
+	height: 200px;
+	width: 300px;
+}
+
+.card1 h1{
+	text-align: center;
+	font-family: Calibri;
+}
+
+.card1 p{
+	font-size:21px;
+	margin: auto;
+	text-align: center;
+}
+
+.card1:hover{
+	border: solid 3px grey;
+}
+
+
+
+.card3{
+	position: absolute;
+	margin-left: 950px;
+	margin-top: 600px;
+	border-style: none;
+	transition: border 1s;
+}	
+
+.card3 img{
+	height: 200px;
+	width: 300px;
+}
+
+.card3 h1{
+	text-align: center;
+	font-family: Calibri;
+}
+
+.card3 p{
+	font-size:21px;
+	margin: auto;
+	text-align: center;
+}
+
+.card3:hover{
+	border: solid 3px grey;
+}
+
+.info{
+	font-family: Montserrat Bold; 
+	font-size: 44px;
+	position: absolute; 
+	color:#8e8e8e;
+	letter-spacing: 2px;
+	text-align: center;
+	height:100px;
+	margin-top:950px;
+	margin-left: 100px;
+}
+
+.nav{
+	top: 150%;
+	position: absolute;
+	text-align: center;
+	padding-left: 17%;
+}
+
+.nav td{
+	border-right: solid 1px #896633;
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: center;
+}
+
+.nav a{
+	text-decoration: none;
+	color: #896633;
+	font-size: 49px;
+	font-family: Wida Round Demo;
+	font-weight: bold;
+}
