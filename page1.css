@@ -45,7 +45,7 @@ a:hover{
 	margin-left: 250px;
 	margin-top: 600px;
 	border: none;
-	transition: border 1s ;
+	transition: border .5s ;
 }	
 
 .card1 img{
@@ -75,7 +75,7 @@ a:hover{
 	margin-left: 950px;
 	margin-top: 600px;
 	border-style: none;
-	transition: border 1s;
+	transition: border .5s;
 }	
 
 .card3 img{
